@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 declare var $: any;
 
 @Component({
-    selector: 'footer-cmp',
+    selector: 'app-footer',
     templateUrl: 'footer.component.html'
 })
 

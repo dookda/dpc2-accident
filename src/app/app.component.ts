@@ -8,14 +8,14 @@ import { LocationStrategy, PlatformLocation, Location } from '@angular/common';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  // title = 'app';
 
   constructor(public location: Location) { }
 
   isMap(path) {
-    let titlee = this.location.prepareExternalUrl(this.location.path());
-    titlee = titlee.slice(1);
-    if (path === titlee) {
+    let title = this.location.prepareExternalUrl(this.location.path());
+    title = title.slice(1);
+    if (path === title) {
       return false;
     } else {
       return true;

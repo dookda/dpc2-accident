@@ -6,6 +6,7 @@ import 'leaflet-draw';
 import * as Highcharts from 'highcharts';
 
 import { DataService } from '../data.service';
+import { AuthService } from '../auth.service';
 
 @Component({
   selector: 'app-report',
@@ -57,7 +58,8 @@ export class ReportComponent implements OnInit {
 
   constructor(
     private http: HttpClient,
-    private dataService: DataService
+    private dataService: DataService,
+    private authService: AuthService
   ) { }
 
   async ngOnInit() {
@@ -393,6 +395,11 @@ export class ReportComponent implements OnInit {
       }
     }
   }
+
+  signOut() {
+    this.authService.logout();
+  }
+
 }
 
 interface JsonData {

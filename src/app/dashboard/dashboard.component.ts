@@ -50,7 +50,6 @@ export class DashboardComponent implements OnInit {
   public zoom: number;
 
   // view
-
   constructor(
     private http: HttpClient,
     private dataService: DataService

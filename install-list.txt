@@ -4,3 +4,16 @@ npm install --save @types/leaflet.gridlayer.googlemutant
 
 npm install --save highcharts @types/highcharts
 npm install --save highcharts/highcharts-angular
+
+npm i angularfire2 firebase --save
+
+npm install --save angular5-social-login
+
+
+
+              // "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+
+
+0932249773
+Sinnakornlove@gmail.com
+
